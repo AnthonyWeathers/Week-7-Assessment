@@ -7,6 +7,8 @@ const findLongestWord = words => {
     }
     return longest
 }
+// runtime is O(n) as the for loop goes through the whole words array
+
 // space complexity is O(1) as only variable longest takes up space
 
 console.log(findLongestWord(["hi", "hello", "good morning", "greetings", "lovely day today"]))

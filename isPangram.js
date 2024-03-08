@@ -13,6 +13,8 @@ const isPangram = sentence => {
     return true;
 }
 
+// runtime is O(n) as toLowerCase goes through the whole sentence to convert it to all lowercase
+
 // space complexity is O(1) as all initialized variables are not scaling in size due to input
 
 console.log(isPangram("The quick brown fox jumps over the lazy dog!"))

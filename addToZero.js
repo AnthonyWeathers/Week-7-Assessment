@@ -11,6 +11,8 @@ const addToZero = array => {
     }
     return false
 }  
+// runtime is O(n^2) as both for loops largely uses the length of the input array
+
 // space complexity is O(1) as no new variables/arrays are being made
 
 console.log(addToZero([]))

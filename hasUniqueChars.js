@@ -8,6 +8,8 @@ const hasUniqueChars = word => {
     }
     return true
 }
+// runtime is O(n^2) as both for loops largely uses the length of the input word array
+
 // space complexity is O(1) since the for loops using length of the array but no new variables or arrays are being created
 
 console.log(hasUniqueChars('Monday'))
